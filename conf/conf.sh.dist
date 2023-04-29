@@ -5,9 +5,21 @@
 #
 
 DB_CHARACTERS_CUSTOM_PATHS+=(
-	$MOD_GUILDHOUSE_ROOT"/sql/characters/"
+	$MOD_GUILDHOUSE_ROOT"/data/sql/db-characters/"
 )
 
 DB_WORLD_CUSTOM_PATHS+=(
-	$MOD_GUILDHOUSE_ROOT"/sql/world/"
+	$MOD_GUILDHOUSE_ROOT"/data/sql/db-world/"
+)
+
+#
+# UPDATES
+#
+
+DB_WORLD_UPDATES_PATHS+=(
+	$MOD_GUILDHOUSE_ROOT"/data/sql/updates/world/"
+)
+
+DB_CHARACTERS_UPDATES_PATHS+=(
+	$MOD_GUILDHOUSE_ROOT"/data/sql/updates/char/"
 )
